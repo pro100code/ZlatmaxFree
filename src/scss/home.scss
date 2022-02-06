@@ -1,0 +1,77 @@
+.main-block {
+	@include adaptiveValue("padding-top", 40, 20);
+	@include adaptiveValue("padding-bottom", 60, 20);
+	background: url("@img/main-page/main-block/bg.jpg") center / cover no-repeat;
+	// .main-block__container
+	&__container {
+	}
+	// .main-block__body
+	&__body {
+	}
+	// .main-block__slider
+	&__slider {
+	}
+	// .main-block__wrapper
+	&__wrapper {
+	}
+	// .main-block__slide
+	&__slide {
+	}
+	// .main-block__adventeges
+	&__adventeges {
+	}
+}
+
+.slide-main-block {
+	// .slide-main-block__content
+	&__content {
+	}
+	// .slide-main-block__title
+	&__title {
+	}
+	// .slide-main-block__subtitle
+	&__subtitle {
+	}
+	// .slide-main-block__text
+	&__text {
+	}
+	// .slide-main-block__button
+	&__button {
+	}
+	// .slide-main-block__media
+	&__media {
+	}
+}
+
+.media-main-block {
+	// .media-main-block__image
+	&__image {
+	}
+	// .media-main-block__tips
+	&__tips {
+	}
+	// .media-main-block__tip
+	&__tip {
+		// .media-main-block__tip_1
+		&_1 {
+		}
+		// .media-main-block__tip_2
+		&_2 {
+		}
+		// .media-main-block__tip_3
+		&_3 {
+		}
+	}
+}
+
+.adventeges-main {
+	// .adventeges-main__item
+	&__item {
+	}
+	// .adventeges-main__icon
+	&__icon {
+	}
+	// .adventeges-main__text
+	&__text {
+	}
+}

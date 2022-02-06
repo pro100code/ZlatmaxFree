@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<!-- часть 2 - 26:00 -->
+		<main class="page page_home">
+
+			<section class="page__main-block main-block">
+				<div class="main-block__container">
+					<div class="main-block__body">
+						<div class="main-block__slider swiper">
+							<div class="main-block__wrapper swiper-wrapper">
+								<div class="main-block__slide slide-main-block">
+									<div class="slide-main-block__content">
+										<h2 class="slide-main-block__title">Интернет магазин сертифицированных</h2>
+										<p class="slide-main-block__subtitle">златоустовских ножей</p>
+										<p class="slide-main-block__text">
+											Добро пожаловать на официальный сайт «ЗЛАТМАКС»! В нашем магазине
+											представлен наиболее широкий выбор Златоустовских ножей от Златоустовских
+											Оружейных Фабрик и компаний, мы являемся официальными поставщиками.
+										</p>
+
+									</div>
+									<a href="#" class="slide-main-block__button button">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="slide-main-block__media media-main-block">
+							<div class="media-main-block__image">
+								<img src="@img/main-page/main-block/image.png" alt="">
+							</div>
+							<div class="media-main-block__tips">
+								<button data-tippy-content="Подсказка" class="media-main-block__tip media-main-block__tip_1">+</button>
+								<button data-tippy-content="Подсказка" class="media-main-block__tip media-main-block__tip_2">+</button>
+								<button data-tippy-content="Подсказка" class="media-main-block__tip media-main-block__tip_3">+</button>
+							</div>
+						</div>
+					</div>
+					<div class="main-block__adventeges adventeges-main">
+						<div class="adventeges-main__item">
+							<div class="adventeges-main__icon">
+								<img src="@img/main-page/main-block/icons/01.svg" alt="">
+							</div>
+							<p class="adventeges-main__text">Гарантия 100% возврата денежных средств</p>
+						</div>
+
+						<div class="adventeges-main__item">
+							<div class="adventeges-main__icon">
+								<img src="@img/main-page/main-block/icons/02.svg" alt="">
+							</div>
+							<p class="adventeges-main__text">Доставка по России, Казахстану и Белоруссии</p>
+						</div>
+
+						<div class="adventeges-main__item">
+							<div class="adventeges-main__icon">
+								<img src="@img/main-page/main-block/icons/03.svg" alt="">
+							</div>
+							<p class="adventeges-main__text">Возможность оформление заказа без регистрации.</p>
+						</div>
+
+						<div class="adventeges-main__item">
+							<div class="adventeges-main__icon">
+								<img src="@img/main-page/main-block/icons/04.svg" alt="">
+							</div>
+							<p class="adventeges-main__text">Скидки постоянным покупателям.</p>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
